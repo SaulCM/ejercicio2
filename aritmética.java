@@ -18,10 +18,12 @@ public class aritmética {
         int suma=suma(5,1);
         int resta=resta(6,2);
     }
+    //Método de Saul
     public static int suma(int x, int y)
     {   int res=x+y;
         return res;
     }
+    //Método de Leandro
     public static int resta(int x, int y)
     {   int res=x-y;
         return res;
