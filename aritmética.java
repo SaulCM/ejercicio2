@@ -17,6 +17,7 @@ public class aritmética {
     public static void main(String[] args) {
         int suma=suma(5,1);
         int resta=resta(6,2);
+        int multiplicar=multiplicar(3,4);
     }
     //Método de Saul
     public static int suma(int x, int y)
@@ -27,5 +28,10 @@ public class aritmética {
     public static int resta(int x, int y)
     {   int res=x-y;
         return res;
+    }
+    //Metodo de Orlando
+    public static int multiplicar(int x, int y)
+    {
+    	return x*y;
     }
 }
