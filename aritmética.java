@@ -16,7 +16,7 @@ public class aritmética {
      */
     public static void main(String[] args) {
         int suma=suma(5,1);
-        int resta=resta(4,2);
+        int resta=resta(6,2);
     }
     //Método de Saul
     public static int suma(int x, int y)
