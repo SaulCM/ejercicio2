@@ -16,9 +16,14 @@ public class aritmética {
      */
     public static void main(String[] args) {
         int suma=suma(5,1);
+        int resta=resta(4,2);
     }
     public static int suma(int x, int y)
     {   int res=x+y;
+        return res;
+    }
+    public static int resta(int x, int y)
+    {   int res=x-y;
         return res;
     }
 }
